@@ -3,7 +3,8 @@ package Question5
 import groovy.transform.ToString
 
 /**
- * Created by ishwar on 18/4/17.
+ 5b. Write a class HourMinute where the class stores hours and minutes as separate fields.
+ Overload + and - operator operator for this class
  */
 hour2 = new HourMinute(hours: 3,minutes: 2);
 hour = new HourMinute(hours: 4,minutes: 4);

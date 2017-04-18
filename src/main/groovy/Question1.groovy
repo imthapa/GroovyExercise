@@ -1,10 +1,8 @@
 import groovy.transform.ToString
 
-/**
- * Created by ishwar on 18/4/17.
- */
 /*class Question1 {
-
+    1. Create a class in Java along with follwing fields. classname: Person fields: name, age,
+    gender, address Access the fields in all known ways: like through getter , by dot operator
 }*/
 
 Person person = new Person();

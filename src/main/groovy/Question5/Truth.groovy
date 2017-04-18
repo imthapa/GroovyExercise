@@ -1,12 +1,19 @@
 package Question5
 
 /**
- * Created by ishwar on 18/4/17.
+ *
+ 5a. Groovy Truth: if('test') { printlnn "test evaluated to true inside if" }
+ try replacing test with various objects and observe its behaviour.
+ "Test"
+ 'null'
+ null
+ 100
+ 0
+ empty list
+ list with all vaues as null List list = new ArrayList()
  */
 if("Test")
     println "this test for non-empty string"
-//class Truth {
-//}
 if('null')
     println "this test for non-empty character"
 if(null)

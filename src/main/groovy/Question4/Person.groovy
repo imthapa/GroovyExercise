@@ -2,13 +2,11 @@ package Question4
 
 import groovy.transform.ToString
 
-/**
- * Created by ishwar on 18/4/17.
+/*
+4. GString... override the toString() of the Person class to return something like...
+"Sachin is a man aged 24 who lives at Delhi. He works for Intelligrape with employee id 12 and
+draws $$$$$$$ lots of money !!!!."
  */
-
-/*class Question1 {
-
-}*/
 
 Human person = new Human()
 
@@ -72,6 +70,6 @@ class Human {
 
 
     String toString() {
-        "${name} is a ${gender=="Male"?"man":"woman"} aged ${age} who lives at ${address}"
+        "${name} is a ${gender == "Male" ? "man" : "woman"} aged ${age} who lives at ${address}"
     }
 }

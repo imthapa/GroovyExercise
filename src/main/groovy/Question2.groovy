@@ -1,10 +1,8 @@
 import groovy.transform.ToString
 
-/**
- * Created by ishwar on 18/4/17.
- */
 /*class Question2 {
-
+    2. Extend the Person class in Groovy Add following fields to it: empId, company, salary Access the
+     fields in all known ways: like through getter , by dot operator, by @ operator.
 }*/
 
 Child child = new Child();

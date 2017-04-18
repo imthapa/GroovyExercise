@@ -1,5 +1,5 @@
 /**
- * Created by ishwar on 18/4/17.
+ 6. Print multiple of 3 upto 10 terms in at least three different ways using groovy special methods
  */
 
 println "using times"

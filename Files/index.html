@@ -1,0 +1,31 @@
+<!-- Start a digital watch for 2 hours on your screen and after that
+print a successfull message on screen that our service has been completed -->
+
+<!DOCTYPE>
+<html>
+<head>
+  <title>Digital Watch</title>
+</head>
+<body>
+  <script>
+  function digclock()
+  {
+    var d = new Date()
+    var t = d.toLocaleTimeString()
+
+    document.getElementById("clock").innerHTML = t;
+  }
+
+  var clock = setInterval(digclock,1000);
+  setTimeout(function(){
+    clearInterval(clock);
+    document.getElementById("clock").innerHTML = "<h1>Our service has been completed</h1>";
+  },15000)
+
+  </script>
+  Digital Clock
+  <div id="clock">
+
+  </div>
+</body>
+</html>
